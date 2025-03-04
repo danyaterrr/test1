@@ -15,7 +15,7 @@ public class Main {
         for (int val : myArray) {
             if (myMap.containsKey(val)) myMap.put(val, myMap.get(val) + 1);
             else{
-                myMap.put(val, 0);
+                myMap.put(val, 1);
             }
         }
 
